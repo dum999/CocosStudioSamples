@@ -34,6 +34,8 @@
 		5087E78B17EB975400C73F5D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5087E78A17EB975400C73F5D /* OpenGL.framework */; };
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
+		B197FCAA212D4C45004C60FF /* Stage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B197FCA9212D4C45004C60FF /* Stage.cpp */; };
+		B197FCAB212D4C45004C60FF /* Stage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B197FCA9212D4C45004C60FF /* Stage.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -223,6 +225,8 @@
 		5087E78A17EB975400C73F5D /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B197FCA7212D4C45004C60FF /* Stage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage.h; sourceTree = "<group>"; };
+		B197FCA9212D4C45004C60FF /* Stage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Stage.cpp; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -476,6 +480,8 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B197FCA9212D4C45004C60FF /* Stage.cpp */,
+				B197FCA7212D4C45004C60FF /* Stage.h */,
 				C69C5AC219FE492800C598A3 /* StageHome.cpp */,
 				C69C5AC319FE492800C598A3 /* StageHome.h */,
 				C69C5AC419FE492800C598A3 /* StageLevelSelect.cpp */,
@@ -738,6 +744,7 @@
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				1AF87B781F6F77F7007BE51C /* AppController.mm in Sources */,
 				1AF87B8B1F6F782A007BE51C /* RootViewController.mm in Sources */,
+				B197FCAA212D4C45004C60FF /* Stage.cpp in Sources */,
 				C69C5AD819FE492800C598A3 /* WidgetUserMenu.cpp in Sources */,
 				C69C5ACE19FE492800C598A3 /* StageHome.cpp in Sources */,
 				C69C5AD219FE492800C598A3 /* StageMain.cpp in Sources */,
@@ -760,6 +767,7 @@
 				C69C5AD719FE492800C598A3 /* StagePlay.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				C69C5AD519FE492800C598A3 /* StageMap.cpp in Sources */,
+				B197FCAB212D4C45004C60FF /* Stage.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
