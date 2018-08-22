@@ -23,7 +23,7 @@ THE SOFTWARE.
 ****************************************************************************/
 
 #include "StageMain.h"
-#include "CocosGUI.h"
+#include "ui/CocosGUI.h"
 #include "cocostudio/ActionTimeline/CSLoader.h"
 #include "StageHome.h"
 

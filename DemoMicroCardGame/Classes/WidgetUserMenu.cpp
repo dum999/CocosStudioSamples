@@ -23,7 +23,7 @@ THE SOFTWARE.
 ****************************************************************************/
 
 #include "WidgetUserMenu.h"
-#include "CocosGUI.h"
+#include "ui/CocosGUI.h"
 #include "cocostudio/ActionTimeline/CSLoader.h"
 #include "StageLevelSelect.h"
 #include "StageHome.h"

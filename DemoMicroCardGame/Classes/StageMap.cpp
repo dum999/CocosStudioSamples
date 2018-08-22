@@ -23,7 +23,7 @@ THE SOFTWARE.
 ****************************************************************************/
 
 #include "StageMap.h"
-#include "CocosGUI.h"
+#include "ui/CocosGUI.h"
 #include "cocostudio/ActionTimeline/CSLoader.h"
 #include "cocostudio/ActionTimeline/CCActionTimeline.h"
 #include "cocostudio/ActionTimeline/CCActionTimelineCache.h"
