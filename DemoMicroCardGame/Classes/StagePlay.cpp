@@ -121,7 +121,7 @@ void StagePlay::victory(Node* rootNode) {
     auto victory = CSLoader::createNode("BattleResult.csb");
 
     auto audioNode = victory->getChildByName("Audio_1");
-    auto comAudio = dynamic_cast<ComAudio*>(audioNode->getComponent("Audio_1"));
+    auto comAudio = dynamic_cast<ComAudio*>(audioNode->getComponent(PlayableFrame::PLAYABLE_EXTENTION));
     comAudio->playEffect();
 
     auto victoryAnimPart = victory->getChildByName("Node_win");
